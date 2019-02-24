@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'store_admin/orders'
+
+  get 'store_admin/invoice'
+
   get 'static/home'
 
   get 'home', to: 'static#home'
