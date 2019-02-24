@@ -4,4 +4,7 @@ class StoreAdminController < ApplicationController
 
   def invoice
   end
+
+  def home
+  end
 end
